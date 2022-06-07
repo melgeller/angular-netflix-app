@@ -1,0 +1,22 @@
+h2{
+    color: white;
+    font-weight: 200;
+    margin: 10px;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+        img{
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            width: 305px;
+        }
+    }
+}

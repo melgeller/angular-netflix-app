@@ -1,0 +1,23 @@
+nav{
+    img{
+        width: 70px;
+        margin: 20px;
+    }
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    ul{
+        display: flex;
+        gap:50px;
+        margin-right: 50px;
+        font-size: large;
+        a{
+            color: white;
+        }
+    }
+    
+
+}

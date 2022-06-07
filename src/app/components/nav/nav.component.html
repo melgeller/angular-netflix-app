@@ -1,0 +1,10 @@
+<header>
+    <nav>
+        <img src="{{navigatorInfo.logo.src}}" alt="{{navigatorInfo.logo.alt}}">
+        <ul>
+            <li *ngFor="let element of navigatorInfo.links">
+                <a href="{{element.link}}">{{element.text}}</a>
+            </li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,29 @@
+h2{
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+img{
+    height: 250px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        margin-left: -80px;
+    }
+}
+.imagen{
+    margin-left: -150px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+

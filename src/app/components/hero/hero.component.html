@@ -1,0 +1,9 @@
+<section class ="hero">
+    <h2>{{heroInfo.title}}</h2>
+    <ul>
+        <li *ngFor="let top of heroInfo.media">
+            <img src="{{top.src}}" alt="{{top.alt}}" class="{{top.class}}">
+
+        </li>
+    </ul>
+</section>
