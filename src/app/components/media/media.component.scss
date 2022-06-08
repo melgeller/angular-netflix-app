@@ -14,9 +14,17 @@ h2{
         flex-wrap: wrap;
         margin-left: 20px;
         margin-right: 20px;
+        :hover{
+            transition: 0.5s;
+            filter: brightness(50%)
+        }
+        :not(:hover){
+            transition: 1s;
+        }
         img{
             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
             width: 305px;
+            
         }
     }
 }

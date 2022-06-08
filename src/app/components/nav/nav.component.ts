@@ -12,7 +12,7 @@ export class NavComponent implements OnInit {
   constructor() {
     this.navigatorInfo = {
       logo: {
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/768px-Netflix-new-icon.png',
+        src: 'https://inceptum-stor.icons8.com/NpQypdBieTIc/netflix.png',
         alt: 'netflixlogo',
         class: "imagen"
       },
